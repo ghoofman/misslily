@@ -1,8 +1,12 @@
 
-			@font-face {
-				font-family: allura;
-				src: url('Allura-Regular.ttf');
-			}
+@font-face {
+	font-family: allura;
+	src: url('Allura-Regular.ttf');
+}
+@font-face {
+	font-family: craftygirls;
+	src: url('CraftyGirls.ttf');
+}
 			body {
 				border: 30px solid transparent;
 					border-image: url('New Roblox Symbol Small.png') 30 round;
@@ -24,3 +28,6 @@ table tr td{
 	vertical-align: top;
 }
 table {width: 100%}
+marquee {
+	font-family: 'craftygirls';
+}
