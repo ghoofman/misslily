@@ -1,0 +1,21 @@
+
+			@font-face {
+				font-family: allura;
+				src: url('Allura-Regular.ttf');
+			}
+			body {
+				border: 30px solid transparent;
+					border-image: url('New Roblox Symbol Small.png') 30 round;
+				font-family: 'allura';
+					font-size: 48px;
+							background-color: magenta
+			}
+			a {
+				color: cyan;
+			}
+			a.welcome{
+				color:red;
+			}
+				#Free {
+					color: lime;
+					}
