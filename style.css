@@ -19,3 +19,8 @@
 				#Free {
 					color: lime;
 					}
+
+table tr td{
+	vertical-align: top;
+}
+table {width: 100%}
