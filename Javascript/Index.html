@@ -1,0 +1,83 @@
+
+<div>
+Hello, <span id= "MOM"> </span> <span id= "codeword"> </span>
+</div>
+
+<button id= "pushdabutton">
+  Push Da Button!
+</button>
+
+<script>
+
+function randomNumber(max){
+  return (Math.floor(Math.random() * max));
+}
+
+function Hello () {
+  console.log(123);
+  return "world";
+}
+
+var L =null;
+L =23 + 5;
+L-=5;
+console.log(randomNumber(230000000000000))
+var A = ['red','cyan','lime', 'magenta', 'fuschia']
+var misslilyme = prompt('Have you visited misslily.me before?' , 'yes or no')
+if  (misslilyme.toLowerCase() == 'yes')
+  {
+    alert ("Sweet! I am the maker of it. My name is Lily.")
+  }
+else if(misslilyme.toLowerCase() == 'no')
+  {
+    alert ("You should!");
+  }
+else
+  {
+    alert ("You should!")
+  }
+//var the_name= prompt('What\'s your name?');
+var the_name= prompt('Anyways, what\'s your name?', 'test');
+document.getElementById("MOM").innerText = the_name;
+if (the_name == "Mom")
+{
+  document.write ("Hello Mom! What brings you here?")
+}
+ else if (the_name == "Lily")
+{
+  document.write ("Welcome back Lily! Long time no see!")
+}
+else if (the_name == "Ollie")
+{
+  document.write ("Hi Ollie! You're a good dog.")
+}
+else if (the_name == "Garrett")
+{
+  document.write ("Hello Garrett! Good to see you.")
+}
+else if (the_name == "test")
+{
+  document.write ("Have a good time testing! Hope it works!")
+}
+else
+  {
+    document.write ("Greetings, " + the_name + ".")
+  }
+  alert ("You are about to enter Lily's first Javascript site.")
+var codeword = ['you are supercool,', 'amazing,','and sweet.' ];
+
+var ind = -1;
+
+//document.getElementById("codeword").innerText = codeword[ind];
+document.getElementById("pushdabutton").onclick = function() {
+  ind += 1;
+  if(ind < codeword.length) {
+    document.getElementById("codeword").innerText += ' ' + codeword[ind];
+  }
+};
+
+  Hello() + L +' '+ A[(randomNumber(A.length))];
+
+
+
+</script>
